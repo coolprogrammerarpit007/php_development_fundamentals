@@ -184,5 +184,19 @@
         // }
         // while($i <= 100);
 
+
+        # functions in php
+
+        // function add_numbers($num1,$num2)
+        // {
+        //     $result = $num1 + $num2;
+        //     return $result;
+        // }
+
+        // $sum1 = add_numbers(25,75);
+        // $sum2 = add_numbers(25,175);
+        // echo "Sum of Numbers: $sum1" . "<br>";
+        // echo "Sum of Numbers: $sum2" . "<br>";
+
 ?>
 
