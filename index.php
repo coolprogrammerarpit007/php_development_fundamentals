@@ -155,5 +155,34 @@
         //         echo "Unwanted Result!";
         //         break;
         // }
+
+
+        # Iteration In PHP
+
+        // $i = 0;
+        // while($i<5)
+        // {
+        //     echo "Hello World! " . "<br>";
+        //     $i++;
+        // }
+
+        // $friends = ['Ram','Rohit','Mohit','Vaibhav','Piyush'];
+
+        // for($i=0; $i<count($friends);$i++)
+        // {
+        //     echo "Friend: " . $i+1 . " " . $friends[$i] . "<br>";
+        // }
+
+        # do while in PHP
+
+        // $i=1;
+
+        // do
+        // {
+        //     echo $i . "<br>";
+        //     $i++;
+        // }
+        // while($i <= 100);
+
 ?>
 
