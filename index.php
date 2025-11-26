@@ -83,5 +83,30 @@
     // echo $num_positive;
 
 
+    # Conditional Statements in PHP
+
+    # foreach loop over Associative Array
+
+        // $capitals = [
+        //     'Japan' => 'Tokyo',
+        //     'Pakistan' => 'Islamabadh',
+        //     'India' => 'New Delhi',
+        //     'France' => 'Paris',
+        //     'Germany' => 'Berlin',
+        //     'United Kingdom' => 'London',
+        //     'United States' => 'Washington D.C.'
+        // ];
+
+        // foreach($capitals as $key => $value)
+        // {
+        //     if($key == 'Pakistan')
+        //     {
+        //         echo "Country does not exist Anymore!" . "<br>";
+        //         continue;
+        //     }
+        //     echo "Country: " .$key . " " ."Capital City: " .  $value . "<br>";
+        // }
+
+
 ?>
 
