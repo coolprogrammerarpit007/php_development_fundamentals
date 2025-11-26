@@ -198,5 +198,36 @@
         // echo "Sum of Numbers: $sum1" . "<br>";
         // echo "Sum of Numbers: $sum2" . "<br>";
 
+
+        # Arrays in PHP
+
+        # Two Types of Arrays
+        # 1. Index Array
+        # 2. Associative Array
+
+        $even_array = [2,4,6,8,10];
+        // print_r($even_array);  print_r() to print array
+
+        $student = [
+            'name' => 'Arpit Mishra',
+            'age' => 26,
+            'education' => 'Engineering',
+            'is_married' => False,
+            'profession' => 'Software Engineer',
+            'friends' => ['Rajesh','Avinash','Priyanshu','Divyansh']
+        ];
+
+
+        foreach($student as $key => $value)
+        {
+            if($key == 'is_married')
+            {
+                $status = $key ? 'Student is Married!' : "Student is Un-Married";
+                echo $status . "<br>";
+                continue;
+            }
+            echo "Student Property $key: " . $value . "<br>";
+        }
+
 ?>
 
