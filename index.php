@@ -14,10 +14,10 @@
 
     // Variable Creation in PHP
 
-    $txt = 'Hello World';
-    $txt2 = "Nice to meet you everyone!";
-    $x = 5;
-    $y = 10.5;
+    // $txt = 'Hello World';
+    // $txt2 = "Nice to meet you everyone!";
+    // $x = 5;
+    // $y = 10.5;
 
     // echo $txt .' ' . $x . ' ' . $y . "<br>";
     // echo $txt2 . '<br>';
@@ -57,10 +57,31 @@
     // echo $a;
 
 
-    $a = true;
-    $b = false;
+    // $a = true;
+    // $b = false;
 
     // echo $a + $b; -> This is called Implicit conversion in PHP
-    
+
+    # check if even or odd
+
+    // $is_even = 5%2;
+
+    // if($is_even == 0)
+    // {
+    //     echo "Even Number";
+    // }
+
+    // else
+    // {
+    //     echo "ODD Number!";
+    // }
+
+
+    # Ternary Operator
+    // $number = (int) readline("Enter Number: ");
+    // $num_positive = $number > 0 ? "Number is Positive" : "Negative Number";
+    // echo $num_positive;
+
+
 ?>
 
