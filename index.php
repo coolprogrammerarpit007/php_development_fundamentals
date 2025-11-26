@@ -107,6 +107,53 @@
         //     echo "Country: " .$key . " " ."Capital City: " .  $value . "<br>";
         // }
 
+        // $age = (int)readline("Enter Age: ");
 
+        // if($age > 18)
+        // {
+        //     echo "Person is Eligible for vote!";
+        // }
+
+        // elseif($age < 18)
+        // {
+        //     echo "Person has still time to vote!";
+        // }
+
+        // else
+        // {
+        //     echo "Non-Age Value!";
+        // }
+
+
+        # Switch statements in PHP
+
+        // $num1 = (int)readline("Enter Number1: ");
+        // $num2 = (int)readline("Enter Number2: ");
+
+        // $operator = readline("Enter Operator(+,-,*,/): ");
+        // $result = null;
+
+        // switch($operator)
+        // {
+        //     case "+":
+        //         $result = $num1 + $num2;
+        //         echo "Sum of Numbers: " . $result;
+        //         break;
+        //     case "-":
+        //         $result = $num1 - $num2;
+        //         echo "Subtraction of Numbers: " . $result;
+        //         break;
+        //     case "*":
+        //         $result = $num1 * $num2;
+        //         echo "Product of Numbers: " . $result;
+        //         break;
+        //     case "/":
+        //         $result = $num1 / $num2;
+        //         echo "Division of Numbers: " . $result;
+        //         break;
+        //     default:
+        //         echo "Unwanted Result!";
+        //         break;
+        // }
 ?>
 
