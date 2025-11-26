@@ -226,7 +226,18 @@
                 echo $status . "<br>";
                 continue;
             }
-            echo "Student Property $key: " . $value . "<br>";
+
+            elseif($key == 'friends')
+            {
+                foreach($student['friends'] as $friend)
+                {
+                    echo "Friend: $friend" . "<br>";
+                }
+            }
+            else
+            {
+                echo "Student Property $key: " . $value . "<br>";
+            }
         }
 
 ?>
